@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.navbar a{
+    padding: 60px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #3a6fcf;
+}
+.logo{
+    text-decoration: none;
+    color: #3a6cfc;
+    font-size: 30px;
+    font-weight: 700;
+}
+a:hover{
+    color: white;
+}
+#home{
+    background-color: blue;
+    background-size: auto;
+}
+.hid1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: 700;
+    padding-top: 100px;
+    color: #ffffff;
+}
+.par1{
+    font-size: 30px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff6f61;
+    margin-left: 600px;
+    border: none;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    height: 40px;
+    transition: 0.7s ease;
+}
+button:hover{
+    color: #ff6f61;
+    background-color: white;
+    transform: (1.1);
+}
+#about{
+    background-color: #fff;
+    padding-top: 150px;
+}
+.hid2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4a90e2;
+    font-weight: 700;
+}
+.par2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+    margin-left: 400px;
+    font-size: 20px;
+}
+#projects {
+    padding: 50px 20px;
+    background-color: #D1E8E2;
+    text-align: center;
+}
+.hid3{
+    color: #3a6cfc;
+}
+
+#projects h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #4A90E2;
+}
+
+.project {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 30%;
+}
+#contact{
+    background-color: #fff;
+}
+.hid4{
+    text-align: center;
+    color: #3a6cfc;
+    padding-top: 100px;
+}
+.par3{
+    text-align: center;
+    font-size: 20px;
+}
